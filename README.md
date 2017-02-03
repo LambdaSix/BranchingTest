@@ -4,4 +4,4 @@ The primary branch is Develop. 'master' is renamed to 'Release' and is a protect
 
 Notionally, the Release branch is the currently released version, so is merged /after/ a certain group of commits are released onto the production system, rather than before.
 
-Once released, the Release branch is merged to from Develop; which is also tagged with the released versin. The tag committ on Develop is the result of merging one or more feature branches into Develop, and then branching from develop into ReleasePrep\_/n/ where N is the version to be released, an update number, normally.
+Once released, the Release branch is merged to from Develop; which is also tagged with the released version. The tag commit on Develop is the result of merging one or more feature branches into Develop, and then branching from develop into ReleasePrep\_/n/ where N is the version to be released, an update number, normally.
